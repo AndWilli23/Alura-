@@ -138,7 +138,7 @@ body {
 }
 
 .lista__item {
-    display: flex;
+   
     font-size: 14px;
     color: var(--branco-principal);
     text-decoration: none;
@@ -159,5 +159,48 @@ body {
 }
 
 .lista__item:active {
-    color: purple;
+    color: purple;   
+}
+
+@media screen and (max-width: 768px) {
+
+    .conteiner {
+        display: block;
+        background-image: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .conteiner__imagem {
+        width: 50vw;
+    }
+
+    .conteiner__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario__botao {
+        display: block;
+        margin: 0;
+        margin: 1em 0 0.5em 0;
+    }
+        
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundaria__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__itens {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+        
+    }
 }
